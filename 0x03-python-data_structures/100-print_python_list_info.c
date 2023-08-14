@@ -2,7 +2,7 @@
 #include "python3.10/Python.h"
 /**
  * print_python_list_info - print all python list info
- * @python_list: Py-Object
+ * @p: Py-Object
  * Return: Nothing
  */
 void print_python_list_info(PyObject *p)
