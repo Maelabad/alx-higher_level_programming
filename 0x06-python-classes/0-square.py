@@ -3,11 +3,5 @@
 
 
 class Square:
-
-    def __init__(self) -> None:
-        """Initialize a new square.
-
-        Args:
-            size (int): size of the square.
-        """
-        pass
+    """Initialize a new square."""
+    pass
