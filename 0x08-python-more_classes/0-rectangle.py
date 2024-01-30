@@ -3,5 +3,5 @@
 
 
 class Rectangle:
-    """Attribute of rectangle"""
+    """Initialize a new rectangle"""
     pass
