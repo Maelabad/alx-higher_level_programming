@@ -1,0 +1,19 @@
+try:
+    # Create an instance of BaseGeometry
+    geometry = BaseGeometry()
+
+    # Call area() method (should raise an exception)
+    geometry.area()
+
+except Exception as e:
+    print(f"Caught an exception: {e}")
+
+try:
+    # Call integer_validator with valid input
+    geometry.integer_validator("side_length", 5)
+
+    # Call integer_validator with invalid input (string instead of integer)
+    geometry.integer_validator("side_length", "not_an_integer")
+
+except Exception as e:
+    print(f"Caught an exception: {e}")
