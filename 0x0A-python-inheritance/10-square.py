@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Define BaseGeometry, Rectangle and square class"""
+
 
 class BaseGeometry():
     """BaseGeometry class"""
